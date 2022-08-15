@@ -61,7 +61,7 @@ $(document).ready(function(){
                                 "<div id='vr-close-btn' class='close-btn'>"+
                     "<span></span> <span></span> </div> </div>"+
                               "<a-scene>"+
-                                 "<a-sky src='/assets/test-img.jpg'></a-sky>"+
+                                 "<a-sky src='./assets/test-img.jpg'></a-sky>"+
                               "</a-scene>");
  
                     $("#vr-close-btn").click(function(){
@@ -127,15 +127,15 @@ $("#close-btn").click(function(){
       $("#video_box").html("<div class='video_menu'>"+
                            "<h1>Creative Brewing</h1>"+
                              "<div class='video_item'>"+
-                               "<img src='/assets/drink1.png' href='https://www.youtube.com/embed/8kU7d-kk8-g?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
+                               "<img src='./assets/drink1.png' href='https://www.youtube.com/embed/8kU7d-kk8-g?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
                                "<p>Summer Drinks</p>"+
                              "</div>"+
                             "<div class='video_item'>"+
-                               "<img src='/assets/drink2.png' href='https://www.youtube.com/embed/8sgtZy0E2Fs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
+                               "<img src='./assets/drink2.png' href='https://www.youtube.com/embed/8sgtZy0E2Fs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
                                "<p>Bubble Tea</p>"+
                              "</div>"+
                            "<div class='video_item'>"+
-                               "<img src='/assets/drink3.png' href='https://www.youtube.com/embed/8sgtZy0E2Fs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
+                               "<img src='./assets/drink3.png' href='https://www.youtube.com/embed/8sgtZy0E2Fs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com'>"+
                                "<p>Tea Cocktail</p>"+
                              "</div>"+
                            "</div>"
