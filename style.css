@@ -261,12 +261,12 @@ iframe{
 
 
     #mid-button span{
-      border: 1px solid black;
+      display:block;
       width:75px;
       height:75px;
       padding:0;
     }
     #mid-button img{
       width:80%;
-      margin:25% 0 0 -10%;
+      margin:10% 0 0 0;
     }
