@@ -261,6 +261,7 @@ iframe{
 
 
     #mid-button span{
+      border: 1px solid black;
       width:75px;
       height:75px;
       padding:0;
