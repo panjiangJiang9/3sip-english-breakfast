@@ -60,7 +60,7 @@ $(document).ready(function(){
                                 "<div id='vr-close-btn' class='close-btn'>"+
                     "<span></span> <span></span> </div> </div>"+
                               "<a-scene>"+
-                                 "<a-sky src='https://cdn.glitch.global/1765ff47-5e85-4c40-9872-99e318a4f9e4/puydesancy.jpg?v=1658353465821'></a-sky>"+
+                                 "<a-sky src='./assets/test-img.jpg'></a-sky>"+
                               "</a-scene>");
  
                     $("#vr-close-btn").click(function(){
