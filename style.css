@@ -1,7 +1,14 @@
-    *{
-      outline:none;
-      font-family: "Montserrat";
-    }
+*{
+  outline:none;
+  font-family: "Montserrat";
+  box-sizing:border-box;
+}
+h1, h2, h3, p{
+  color:#297428;
+}
+iframe{
+  border: 0;
+}
     
     /* width */
 ::-webkit-scrollbar {
@@ -39,7 +46,7 @@
 
     .say-hi-button {
       float: left;
-      margin-right: 30px;
+      margin-right: 20px;
       padding: 0.25em;
       border-radius: 50px;
       border: none;
@@ -47,7 +54,9 @@
       width: 75px;
       height: 75px;
     }
-    
+.buttons>button:nth-child(4){
+  margin-right: 0;
+}
 
     #video_box{
       display: flex;
@@ -57,9 +66,43 @@
       height:0;
       background:rgba(255, 255, 255, 0.3);
     }
+    .video_menu{
+      position: absolute;
+      /*margin-top: -100px;*/
+      background:#E8FDE8;
+      width: 340px;
+      height:500px;
+      border-radius:30px;
+      overflow-y: scroll;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+    }
+    .video_menu h1{
+      font-size: 24px;
+    }
+    
+    .video_item{
+      display: block;
+   /*   float:top;*/
+      width: 300px;
+      height:280px;
+      margin:10px auto;
+      text-align:center;
+    }  
+
+    .video_item>img,
+     .video_item>p{
+      display: inline-block;
+      margin: 0;
+    }
+    .video_item img{
+      width:100%;
+    }
+
     .test_board{
       position: absolute;
-      margin-top:-100px;
+     /* margin-top:-100px;*/
       width: 340px;
       height:500px;
       background: #ffffff;
@@ -75,9 +118,9 @@
       height:40px;
     }
     .test_board>div:nth-child(3){
-      height:390px;
+      height:395px;
       margin-top:-20px;
-      padding: 40px 15px 0px 15px;
+      padding: 0 25px 0 25px;
       border-radius:0 0 30px 30px;
       background: #E8FDE8;
       color:#000000;
@@ -89,20 +132,34 @@
     }
     .test_board h2{
       font-size:16px;
-      margin-bottom: 7px;
+      margin-bottom: 5px;
     }
+
     .test_board p{
       font-size:16px;
-      margin:0 0 7px 0;
+      margin:0 0 15px 0;
+    }
+    .test_board h2:nth-child(1),
+    .test_board p:nth-child(1){
+      margin-top:0;
+      padding-top:30px;
+    }
+    .test_board h3{
+      font-size:20px;
+      margin-top:0;
+      padding-top:40px;
     }
     .test_board iframe{
-      width: 300px;
+      width: 280px;
       height:200px;
       display: block;
-      margin: 10px auto;
+      margin:0 auto;
+      
+    } 
+    #vr-btn{
+      position: relative;
+      top: 30px;
     }
-    
-
 .button-1 {
   float: left;
   align-items: center;
@@ -189,7 +246,7 @@
   top: 22px;
   height: 8px;
   width: 90%;
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: 4px;
   transform: rotate(0deg);
   transition: .2s ease-in-out;
@@ -202,40 +259,9 @@
   transform: rotate(-45deg);
 }
 
-    .video_menu{
-      position: absolute;
-      margin-top: 100px;
-      background:#E8FDE8;
-      width: 330px;
-      height:450px;
-      border-radius:30px;
-      overflow-y: scroll;
-      justify-content: center;
-      align-items: center;
-      text-align:center;
-    }
-    
-    
-    
-    .video_item{
-      display: block;
-      float:top;
-      width: 300px;
-      height:300px;
-      margin:10px auto;
-      text-align:center;
-    }  
 
-    .video_item>img,
-     .video_item>p{
-      display: inline-block;
-      margin: 0;
-    }
-    .video_item img{
-      width:100%;
-    }
-
-    #mid-button div{
+    #mid-button span{
+      display:block;
       width:75px;
       height:75px;
       padding:0;
